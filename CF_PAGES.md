@@ -6,4 +6,5 @@
 4. Deploy → tip URL: `https://umrt-community.pages.dev`
 
 No custom domain (HOLD). Keep `robots.txt` Disallow + meta `noindex,follow`.
-Link from portal `/community/` to this tip.
+Link from portal to this tip; auth is on portal login `https://umrt-portal.pages.dev/account/`.
+No secrets required for this static shell.
