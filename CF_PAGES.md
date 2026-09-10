@@ -1,8 +1,9 @@
 # Cloudflare Pages — umrt-community
 
-1. Workers & Pages → Create → Pages → Connect to Git → `crashdummy88/umrt-community`
-2. Framework preset: **None** · Build: empty · Output directory: `/`
-3. Deploy → tip `https://umrt-community.pages.dev`
+1. Cloudflare Dashboard → Pages → Create → Connect Git
+2. Select `crashdummy88/umrt-community`
+3. Framework preset: None · Build command: (empty) · Output directory: `/`
+4. Deploy → tip URL: `https://umrt-community.pages.dev`
 
-**Domain HOLD** — do not attach unitedmobilerv.com custom domains yet.
-**SEO:** thin shell stays noindex until real content.
+No custom domain (HOLD). Keep `robots.txt` Disallow + meta `noindex,follow`.
+Link from portal `/community/` to this tip.
