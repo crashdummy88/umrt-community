@@ -2,41 +2,91 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Community · United Mobile RV</title>
-  <link rel="icon" href="/assets/brand/favicon-64.png" />
+  <title>UMRT Community · RV Repair, Power & Connectivity Forum</title>
+  <link rel="icon" href="/assets/brand/favicon-64.png">
   <meta name="robots" content="noindex,follow">
-  <meta name="description" content="UMRT community hub — Field tips, Power/Victron, Connectivity, Job Q&A. Prefer Text (616) 606-5277.">
+  <meta name="description" content="United Mobile RV community for real RV repair, diagnostics, power, connectivity and field experience. Moderated community with technical resources.">
   <link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
   <div class="wrap">
     <header>
-      <a class="brand" href="/" style="display:flex;align-items:center;gap:.5rem"><img src="/assets/brand/umrt-logo.webp" width="120" height="36" alt="United Mobile RV" fetchpriority="high" decoding="async" /><span>United Mobile <span>RV</span> Community</span></a>
-      <nav>
+      <a class="brand" href="/" aria-label="United Mobile RV Community home"><img src="/assets/brand/umrt-logo.webp" width="120" height="36" alt="United Mobile RV" fetchpriority="high" decoding="async"><span>United Mobile <span>RV</span> Community</span></a>
+      <nav aria-label="Primary navigation">
         <a href="/forums/">Forums</a>
         <a href="/bulletin/">Bulletin</a>
         <a href="https://umrt-portal.pages.dev/account/">Portal login</a>
       </nav>
     </header>
+
     <main>
-      <p class="badge">Community shell</p>
-      <h1>UMRT Community</h1>
-      <p class="lede">Forums and a field bulletin for mobile RV techs and owners. Soft Pages hub — Prefer Text for real help today.</p>
-      <div class="card">
-        <p><a href="/forums/field-tips/">Field tips</a></p>
-        <p><a href="/forums/power-victron/">Power / Victron</a></p>
-        <p><a href="/forums/connectivity/">Connectivity</a></p>
-        <p><a href="/forums/job-qa/">Job Q&amp;A</a></p>
-        <p><a href="/bulletin/">Bulletin</a> — short field updates</p>
+      <section class="card" style="margin-bottom:1rem">
+        <div class="eyebrow">UMRT Community Network</div>
+        <h1>Real RV problems. Real troubleshooting. Real answers.</h1>
+        <p class="lede">A technical community for RV owners, travelers and techs. Bring the symptom, measurements, fault code or photo. Build the answer so the next person can find it.</p>
+        <p>
+          <a class="btn" href="/forums/">Browse forums</a>
+          <a class="btn btn-ghost" href="https://umrt-portal.pages.dev/account/">Portal login</a>
+        </p>
+        <div class="tags" aria-label="Community features">
+          <span class="badge live">● Community live</span>
+          <span class="badge bot">Bot screening</span>
+          <span class="badge mod">Human moderation</span>
+          <span class="tag">Solved answers</span>
+          <span class="tag">Field knowledge</span>
+        </div>
+      </section>
+
+      <div class="grid">
+        <div class="main-stack">
+          <section class="card">
+            <div class="card-title"><div><div class="eyebrow">Boards</div><h2>Technical forums</h2></div><span class="badge">5 boards</span></div>
+            <div class="forum-list">
+              <a class="forum-row" href="/forums/field-tips/"><span class="forum-icon">FT</span><span><strong>Field Tips &amp; Road Life</strong><small>Winterization, trip prep, campsite fixes and lessons learned.</small></span><span class="row-meta">Field</span></a>
+              <a class="forum-row" href="/forums/power-victron/"><span class="forum-icon">PV</span><span><strong>Power &amp; Victron</strong><small>Solar, batteries, MultiPlus, Cerbo, charging and off-grid systems.</small></span><span class="row-meta">Power</span></a>
+              <a class="forum-row" href="/forums/connectivity/"><span class="forum-icon">NET</span><span><strong>Connectivity</strong><small>Starlink installs, Peplink, cellular, Wi-Fi and signal problems.</small></span><span class="row-meta">Network</span></a>
+              <a class="forum-row" href="/forums/job-qa/"><span class="forum-icon">QA</span><span><strong>Job Q&amp;A</strong><small>Symptoms, tests, diagnostics and questions from the field.</small></span><span class="row-meta">Help</span></a>
+              <a class="forum-row" href="/forums/power/"><span class="forum-icon">RV</span><span><strong>RV Systems &amp; Repair</strong><small>Electrical, appliances, plumbing, generators, chassis and trailer systems.</small></span><span class="row-meta">Repair</span></a>
+            </div>
+          </section>
+
+          <section class="card">
+            <div class="card-title"><div><div class="eyebrow">Community activity</div><h2>What's happening</h2></div><span class="badge live">Live shell</span></div>
+            <div class="activity">
+              <div class="activity-item"><span class="dot"></span><div><strong>Technical discussions are organized around actual problems</strong><small>Post symptoms, measurements, fault codes, photos and the final fix.</small></div></div>
+              <div class="activity-item"><span class="dot"></span><div><strong>Bot screening keeps low-quality and obvious spam out</strong><small>Automated checks can flag suspicious activity before it reaches the community.</small></div></div>
+              <div class="activity-item"><span class="dot"></span><div><strong>Moderation keeps technical threads useful</strong><small>Human review is reserved for reports, disputes and community health.</small></div></div>
+            </div>
+          </section>
+        </div>
+
+        <aside class="side-stack" aria-label="Community status">
+          <section class="card">
+            <div class="eyebrow">System status</div>
+            <h3>Community services</h3>
+            <div class="system-row"><span>Forums</span><span class="ok">Operational</span></div>
+            <div class="system-row"><span>Bot screening</span><span class="ok">Ready</span></div>
+            <div class="system-row"><span>Moderation</span><span class="ok">Active</span></div>
+            <div class="system-row"><span>Portal auth</span><span class="muted">Linked</span></div>
+          </section>
+
+          <section class="card">
+            <div class="eyebrow">Post better questions</div>
+            <h3>Give the tech something to work with</h3>
+            <p class="note">Include RV year/make/model, component, symptoms, error codes, voltage or other measurements, what you already tested and photos when useful.</p>
+          </section>
+
+          <section class="card">
+            <div class="eyebrow">Need a human?</div>
+            <h3>Prefer Text</h3>
+            <p class="note">The community is for knowledge and troubleshooting. For an active repair, contact United Mobile RV directly.</p>
+            <a class="btn" href="sms:+16166065277">Text (616) 606-5277</a>
+          </section>
+        </aside>
       </div>
-      <div class="card">
-        <p class="note">Related</p>
-        <p><a href="https://umrt-portal.pages.dev/account/">Portal login</a> · <a href="https://umrt-portal.pages.dev/book/">Book</a> · <a href="https://umrt-pay.pages.dev/pay/">Pay</a></p>
-      </div>
-      <p><a class="btn" href="sms:+16166065277">Prefer Text · (616) 606-5277</a></p>
-      <p class="note">Starlink installs only — never “Certified.” Domain HOLD — pages.dev only.</p>
     </main>
-    <footer>United Mobile RV LLC · Soft community shell</footer>
+
+    <footer>United Mobile RV LLC · Community shell · <a href="/forums/">Forums</a> · <a href="/bulletin/">Bulletin</a></footer>
   </div>
 </body>
 </html>
