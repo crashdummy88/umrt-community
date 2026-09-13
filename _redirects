@@ -1,0 +1,12 @@
+# umrt-community retired in favor of united-mobile-rv's /forum/ (the
+# canonical community property — real seeded threads, Google OAuth,
+# vote/solve/report APIs, indexed for search + AI answer engines).
+# This property was a "soft shell" (no real threads; auth was planned to
+# share with umrt-portal but never wired up) -- nothing here needed
+# migrating before retiring it. Decided 2026-09-13.
+#
+# TODO once forum.unitedmobilerv.com custom domain is live (currently
+# pending): update the target below from the .pages.dev URL to
+# https://forum.unitedmobilerv.com/ so this doesn't chain through an
+# extra hop.
+/*  https://united-mobile-rv.pages.dev/forum/  301
